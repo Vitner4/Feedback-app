@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="701.0" style="-fx-background-color: #081744;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="68.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <TextField layoutX="270.0" layoutY="87.0" promptText="your name">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="221.0" layoutY="130.0" prefHeight="91.0" prefWidth="258.0" promptText="your text for me" />
+            <Label layoutX="309.0" layoutY="33.0" text="Write" textFill="#97a8e1">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button layoutX="287.0" layoutY="245.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="126.0" style="-fx-background-color: #E19F5B;" text="Send" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="190.0" layoutY="14.0" text="send me something" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="618.0" layoutY="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="53.0" style="-fx-background-color: #E19F5B;" text="exit" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
